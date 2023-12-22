@@ -18,7 +18,8 @@ Code to read 3 different sensors from the Raspberry Pi (each read in their respe
 # Lab 3 (group project) Ad-Hoc Raspberry Pi Sensor network - [lab3 report](https://drive.google.com/file/d/1IUQWMTdYFBvsCghGA4VF_CDSn9RZUnXC/view?usp=sharing)
 Three raspberry Pi's connected via ad-hoc, where data is sent. Data is then ploted.
 
-My contribution: I mainly setup the linux ad-hoc connections. Also created the sensor reading getter functions. Did pair programming, where assisted in debugging the project, mainly in regards to socket-programming and packet transmission/parsing. 
+**My contributions**: 
+I setup/taught group-mates how to do the linux ad-hoc connections. Also created the sensor reading getter functions. Did pair programming, where assisted in debugging the project, mainly in regards to socket-programming and packet transmission/parsing. 
 
 ## Part 2 - Polling
 Primary Pi sends a request to Secondary Pi for data. Secondary Pi sends back data. Primary Pi then alternate to other Secondary Pi. After polling both Pi's, creates a plot of data.
@@ -37,7 +38,7 @@ Front end, flask webserver for the front end also hosted via XAMPP HTTP server.
 
 Wildfire warning and thresholds added, where the warning is sent via an HTTP packet.
 
-My contribution:
+**My contributions:**
 Pair programming, troubleshooted getting the SQL server commands to work via Python. Added front-end wildfire color/warnings, along with other HTML front-end edits after website has been created. Modified the code to work with my partner's file-data-reader class, where instead of polling data, we read example pre-written data. Also created an overall wildfire percent page for part 4.
 
 ## Part 2-3 Reading sensors on website
