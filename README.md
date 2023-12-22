@@ -38,9 +38,7 @@ Front end, flask webserver for the front end also hosted via XAMPP HTTP server.
 Wildfire warning and thresholds added, where the warning is sent via an HTTP packet.
 
 My contribution:
-Pair programming, troubleshooted getting the SQL server commands to work via Python. Added front-end wildfire color/warnings, along with other HTML front-end edits after website has been created. Modified the code to work with my partner's file-data-reader class, where instead of polling data, we read example pre-written data.
-
-Also created an overall wildfire percent page for part 4.
+Pair programming, troubleshooted getting the SQL server commands to work via Python. Added front-end wildfire color/warnings, along with other HTML front-end edits after website has been created. Modified the code to work with my partner's file-data-reader class, where instead of polling data, we read example pre-written data. Also created an overall wildfire percent page for part 4.
 
 ## Part 2-3 Reading sensors on website
 Lab 3, but with data readings & plots being stored on a SQL server and read on webite
