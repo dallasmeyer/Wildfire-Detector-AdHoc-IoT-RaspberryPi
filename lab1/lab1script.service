@@ -1,0 +1,12 @@
+[Unit]
+Description= Weather Report
+After=network-online.target
+Wants=network.online.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/dallaspi/Desktop/cse-157/lab1/generate_report.py
+WorkingDirectory=/home/dallaspi/Desktop/cse-157/lab1
+User=dallaspi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+Dallas Meyer
+10-27-2023 09:19:45
+Temperature: 23.003°C
+Humidity: 43.160%
+Soil Moisture: 410.000
+Soil Temperature: 31.212°C
+Wind speed: 0.097m/s
+
