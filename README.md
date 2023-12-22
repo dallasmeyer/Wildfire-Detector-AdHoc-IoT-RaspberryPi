@@ -18,7 +18,7 @@ Code to read 3 different sensors from the Raspberry Pi (each read in their respe
 # Lab 3 (group project) Ad-Hoc Raspberry Pi Sensor network
 Three raspberry Pi's connected via ad-hoc, where data is sent. Data is then ploted.
 
-My contribution: I mostly setup the linux ad-hoc connections. Also created the sensor reading getter functions. Helped do pair programming and debugging for the project, mainly in regards to socket-programming and packet transmission. 
+My contribution: I mainly setup the linux ad-hoc connections. Also created the sensor reading getter functions. Did pair programming, where assisted in debugging the project, mainly in regards to socket-programming and packet transmission/parsing. 
 
 ## Part 2 - Polling
 Primary Pi sends a request to Secondary Pi for data. Secondary Pi sends back data. Primary Pi then alternate to other Secondary Pi. After polling both Pi's, creates a plot of data.
