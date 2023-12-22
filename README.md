@@ -1,9 +1,9 @@
 All these labs make use of the Raspberry Pi 4 device, and a laptop for XAMPP.
 
-# Lab 1
+# Lab 1 - [lab1 report](https://drive.google.com/file/d/1jhdqIRl0j3_I_c05PU62skchX_egpRWG/view?usp=sharing)
 Raspberry Pi 4 setup. Simple hello world. Systemd on boot service, where waits for network to connect and then does an HTTP GET request for weather
 
-# Lab 2
+# Lab 2 - [lab2 report](https://drive.google.com/file/d/1ImR52spvst1dsjFWhI6HxEdlzOd5JASu/view?usp=sharing)
 Code to read 3 different sensors from the Raspberry Pi (each read in their respective demo.py file):
 * SHT30 temperature and humidity sensor
 * SEESAW soil temperature and humidity sensor
@@ -15,7 +15,7 @@ Code to read 3 different sensors from the Raspberry Pi (each read in their respe
 
 * asyncio-extra-credit.py: All sensors read concurrently, where sensors read after getting a flag.
 
-# Lab 3 (group project) Ad-Hoc Raspberry Pi Sensor network
+# Lab 3 (group project) Ad-Hoc Raspberry Pi Sensor network - [lab3 report](https://drive.google.com/file/d/1IUQWMTdYFBvsCghGA4VF_CDSn9RZUnXC/view?usp=sharing)
 Three raspberry Pi's connected via ad-hoc, where data is sent. Data is then ploted.
 
 My contribution: I mainly setup the linux ad-hoc connections. Also created the sensor reading getter functions. Did pair programming, where assisted in debugging the project, mainly in regards to socket-programming and packet transmission/parsing. 
@@ -29,7 +29,7 @@ Pi #2 aggregates its data and Pi #1 data, sends to Pi #3
 Pi #3 aggregates its data and both Pi #1 & #2, then plots.
 Repeat.
 
-# Lab 4 (continuation of lab 3) WildFire reading/warning, website.
+# Lab 4 (continuation of lab 3) WildFire reading/warning website - [lab4 report](https://drive.google.com/file/d/1JV_d_OdEt6PtUqwVZQPBqCL0VIM_N9Af/view?usp=sharing)
 
 Continuation of lab 3, but now with Wildfire warning detection and a front-end and back-end. For backend, MYSQL server that is ran via on XAMPP.
 
@@ -40,8 +40,10 @@ Wildfire warning and thresholds added, where the warning is sent via an HTTP pac
 My contribution:
 Pair programming, troubleshooted getting the SQL server commands to work via Python. Added front-end wildfire color/warnings, along with other HTML front-end edits after website has been created. Modified the code to work with my partner's file-data-reader class, where instead of polling data, we read example pre-written data.
 
+Also created an overall wildfire percent page for part 4.
+
 ## Part 2-3 Reading sensors on website
-Lab 3, but with data being stored on a SQL server and read on webite
+Lab 3, but with data readings & plots being stored on a SQL server and read on webite
 
 ## Part 4 Wild Fire
 Part 2-3, but with wildfire aspect of the lab (eg. warnings, color-coding) implemented.
