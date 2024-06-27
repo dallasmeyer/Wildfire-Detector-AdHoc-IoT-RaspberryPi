@@ -1,9 +1,9 @@
 All these labs make use of the Raspberry Pi 4 device, and a laptop for XAMPP.
 
-# Lab 1 - [lab1 report](https://drive.google.com/file/d/1jhdqIRl0j3_I_c05PU62skchX_egpRWG/view?usp=sharing)
+# Lab 1 - [lab1 report](https://drive.google.com/file/d/1sdROprX0mL9JBaH1SvOBbSq_qHte7YP7/view?usp=sharing)
 Raspberry Pi 4 setup. Simple hello world. Systemd on boot service, where waits for network to connect and then does an HTTP GET request for weather
 
-# Lab 2 - [lab2 report](https://drive.google.com/file/d/1ImR52spvst1dsjFWhI6HxEdlzOd5JASu/view?usp=sharing)
+# Lab 2 - [lab2 report](https://drive.google.com/file/d/1_uOUWwGd-EMFdpVDmhyMQN4rafyR_L4Z/view?usp=sharing)
 Code to read 3 different sensors from the Raspberry Pi (each read in their respective demo.py file):
 * SHT30 temperature and humidity sensor
 * SEESAW soil temperature and humidity sensor
@@ -15,7 +15,7 @@ Code to read 3 different sensors from the Raspberry Pi (each read in their respe
 
 * asyncio-extra-credit.py: All sensors read concurrently, where sensors read after getting a flag.
 
-# Lab 3 (group project) Ad-Hoc Raspberry Pi Sensor network - [lab3 report](https://drive.google.com/file/d/1IUQWMTdYFBvsCghGA4VF_CDSn9RZUnXC/view?usp=sharing)
+# Lab 3 (group project) Ad-Hoc Raspberry Pi Sensor network - [lab3 report](https://drive.google.com/file/d/1KNI8JMOvU63eRIEXWZDDM5CZKKzS2LRS/view?usp=sharing)
 Three raspberry Pi's connected via ad-hoc, where data is sent. Data is then ploted.
 
 **My contributions**: 
@@ -30,7 +30,7 @@ Pi #2 aggregates its data and Pi #1 data, sends to Pi #3
 Pi #3 aggregates its data and both Pi #1 & #2, then plots.
 Repeat.
 
-# Lab 4 (continuation of lab 3) WildFire reading/warning website - [lab4 report](https://drive.google.com/file/d/1JV_d_OdEt6PtUqwVZQPBqCL0VIM_N9Af/view?usp=sharing)
+# Lab 4 (continuation of lab 3) WildFire reading/warning website - [lab4 report](https://drive.google.com/file/d/1GApGWuNkP6MsItSJ7ehjSOaLXeLpRvgl/view?usp=sharing)
 
 Continuation of lab 3, but now with Wildfire warning detection and a front-end and back-end. For backend, MYSQL server that is ran via on XAMPP.
 
